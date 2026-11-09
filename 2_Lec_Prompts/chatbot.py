@@ -1,8 +1,7 @@
 from langchain_ollama import ChatOllama
-from dotenv import load_dotenv
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
-
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 model = ChatOllama(
     model='gemma3:1b'

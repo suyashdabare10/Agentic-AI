@@ -1,9 +1,8 @@
 from langchain_ollama import ChatOllama
-from dotenv import load_dotenv
 import streamlit as st
 from langchain_core.prompts import PromptTemplate
-
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 model = ChatOllama(
     model='gemma3:1b'
